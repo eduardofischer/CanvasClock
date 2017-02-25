@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css?family=Julius+Sans+One');
+#analogClock{
+  position: absolute;
+  margin: auto;
+  left:0; right:0; top:50px;
+}
+body{
+  background-color: #1abc9c;
+}
+div#digitalClock{
+  position: absolute;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  bottom: 30px;
+  display: flex;
+}
+div#digitalClock p{
+  margin: 0 auto;
+}
+span.display{
+  font-size: 70pt;
+  font-family: 'Julius Sans One', sans-serif;
+  margin: auto;
+  color: #ecf0f1;
+}
